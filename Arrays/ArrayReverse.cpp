@@ -3,6 +3,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Approach-1
 void reverse(int arr[], int n) {
 	int start = 0;
 	int end = n-1;
@@ -21,6 +22,7 @@ void print(int arr[], int n) {
 	cout<<endl;
 }
 
+// Approach-2
 void withoutSwap(int arr[], int n) {
 	int start = 0;
 	int end = n-1;
