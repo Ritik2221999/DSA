@@ -16,7 +16,7 @@ class Heap {
 void minHeapify(int arr[], int n, int i) {
     int smallest = i;
     
-    // 0-Based indexing
+    // 1-Based indexing
     int left = 2 * i;
     int right = 2 * i + 1;
     
